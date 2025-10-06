@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Page</title>
+    <!-- ^ Favicon -->
+    <link rel="icon" href="./images (1).png">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="style.css">
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+</head>
+
+<body>
+    <div class="container">
+        <img src="./Contact us-amico.png" alt="Contact illustration" class="animate__animated animate__fadeInLeft">
+        <div class="contact-container animate__animated animate__fadeInRight">
+            <form class="contact-form" id="contactForm" novalidate>
+                <h2 class="animated-title">Contact Us</h2>
+
+                <label for="name">Full Name</label>
+                <input type="text" id="name" name="name" placeholder="Enter your full name">
+
+                <label for="email">Email Address</label>
+                <input type="email" id="email" name="email" placeholder="Enter your email">
+
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" placeholder="Subject">
+
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" placeholder="Write your message"></textarea>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>
